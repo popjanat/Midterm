@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald&display=swap');
+body .navbar{
+    font-family: 'Oswald', sans-serif;
+}
+    *{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100vh;
+
+}
+.navbar-style{
+    
+    text-transform: uppercase;
+}
+.logo{
+    height: 40px;
+    padding: 2px;
+}
+.icon-bar{
+    background: darkmagenta;
+}
+header .stule{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #333;
+}
+.footer-text{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 36px;
+}
+body{
+    background: rgb(203,27,190);
+background: linear-gradient(45deg, rgba(203,27,190,1) 0%, rgba(179,49,169,1) 50%, rgba(0,212,255,1) 100%);
+}
+footer{
+    margin-top:150px;
+}
+.slider{
+    margin: auto;
+}
