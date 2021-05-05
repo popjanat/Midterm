@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald&display=swap');
+body .navbar{
+    font-family: 'Oswald', sans-serif;
+}
+    *{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100vh;
+
+}
+.navbar-style{
+    
+    text-transform: uppercase;
+}
+.logo{
+    height: 40px;
+    padding: 2px;
+}
+.icon-bar{
+    background: darkmagenta;
+}
+header .stule{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #333;
+}
+.footer-text{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 36px;
+}
+body{
+    background: rgb(203,27,190);
+background: linear-gradient(45deg, rgba(203,27,190,1) 0%, rgba(179,49,169,1) 50%, rgba(0,212,255,1) 100%);
+}
+footer{
+    margin-top:150px;
+}
+@keyframes hue {
+    from {
+        filter: hue-rotate(0deg);
+    }
+
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.changing-color {
+    animation: hue 4s infinite linear;
+    background-image: linear-gradient(92deg, #f35626 0%,#feab3a 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #f35626;
+    font-family: 'Oswald',cursive;
+    font-size: 10rem;
+    text-align: center;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+form{
+    width: 300px;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #ccc;
+    letter-spacing: 1px;
+  }
+  .form__input,
+  .form__button{
+    letter-spacing: 1px;
+    font-size: 16px;
+  }
+  .form__group{
+    position: relative;
+    margin-bottom: 32px;
+  }
+  .form__label{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    color:#9e9e9e;
+    transition: 0.3s;
+  }
+  .form__input{
+    width: 100%;
+    padding: 0 0 10px 0;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+  }
+  .form__input:focus{
+    border-bottom: 1px solid #1a73a8;
+  }
+  .form__button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #0071f0;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .form__button:focus,
+  .form__button:hover
+  {
+  background-color: rgba(0,113,240,0.7);
+  }
+  .form__input:focus ~ .form__label{
+    top: -18px;
+    font-size: 12;
+    color: #e0e0e0;
+  }
+  .hr-washed {
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	box-shadow: 0 0 10px 1px black;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .post-category{
+    font-family: 'Oswald',cursive;
+    font-size: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+  .post-title {
+      color: #fff;
+  }
